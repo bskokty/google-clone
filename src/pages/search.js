@@ -3,7 +3,7 @@ import React from "react";
 import Header from "./header";
 import { API_KEY, CONTEXT_KEY } from "./keys";
 import SearchResults from "../../components/SearchResults";
-import response from "../../response";
+import response from "../../Response";
 
 function Search({ results }) {
   console.log(results);
