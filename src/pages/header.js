@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React from "react";
+import React, { createRef } from "react";
 import Google from "../../google2.png";
 import { MicrophoneIcon, SearchIcon, XIcon } from "@heroicons/react/solid";
 import { useRouter } from "next/router";
@@ -9,7 +9,7 @@ import HeaderOptions from "./headerOptions";
 
 function Header() {
   const router = useRouter();
-  const searchInputRef = useRouter(null);
+  const searchInputRef = createRef(null);
 
   const search = (e) => {
     e.preventDefault();

@@ -47,7 +47,7 @@ export default function Home() {
       </header>
       {/** body */}
       <form className="flex flex-col items-center mt-44 flex-grow w-4/5">
-        <Image src={Google} height={100} width={300}></Image>
+        <Image src={Google} height={100} width={300} alt=""></Image>
         <div className="flex w-full mt-5 hover:shadow-lg focus-within:shadow-lg max-q-md rounded-full border border-grey-200 px-5 py-3 item-center sm:max-w-xl lg:max-w-2xl">
           <SearchIcon className="h-5 mr-3 text-grey-500" />
           <input
